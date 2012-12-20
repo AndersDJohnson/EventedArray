@@ -1,0 +1,27 @@
+{
+  "name": "eventedarray",
+  "description":  "EventedArray",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "coffee --output lib --compile src",
+    "test": "mocha --compilers coffee:coffee-script test"
+  },
+  "dependencies": {
+    "eventemitter2": "~0.4.11"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4",
+    "chai": "~1.4.0",
+    "mocha": "~1.7.4"
+  },
+  "author": "Anders D. Johnson < AndersDJohnson atsign gmail dot com >",
+  "repository":   {
+    "type": "git",
+    "url": "git://github.com/AndersDJohnson/EventedArray.git"
+  },
+  "licenses":     [{
+    "type":       "MIT"
+	"url":        "https://github.com/AndersDJohnson/EventedArray/blob/master/LICENSE.txt"
+  }]
+}
