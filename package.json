@@ -21,7 +21,7 @@
     "url": "git://github.com/AndersDJohnson/EventedArray.git"
   },
   "licenses":     [{
-    "type":       "MIT"
+    "type":       "MIT",
 	"url":        "https://github.com/AndersDJohnson/EventedArray/blob/master/LICENSE.txt"
   }]
 }
