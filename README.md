@@ -10,7 +10,7 @@ Bind to "before.*" and "after.*" events on an instance of EventedArray to listen
 
 The major quirk is that getting and setting array values must be done with helper methods, since we can't use the regular bracket indexing syntax with our wrapper.
 
-```
+```js
 ea = new EventedArray();
 ea.set(0, 'first');
 ea.get(0); // === 'first'
@@ -19,7 +19,7 @@ ea.setArray(['new','one']);
 ea.getArray(); //  ['new','one']
 ea.get(1); // === 'one'
 
-ea.once('before.set, function (e, value) {
+ea.once('before.set', function (e, value) {
 	console.log(value);
 });
 
@@ -28,7 +28,7 @@ ea.set(1); // === 'fun'
 
 ea.getArray(); //  ['new','fun']
 
-ea.on('before.set, function (e, value) {
+ea.on('before.set', function (e, value) {
 	e.preventDefault();
 	console.log('default prevented');
 });
