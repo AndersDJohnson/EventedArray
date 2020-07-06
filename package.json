@@ -1,6 +1,6 @@
 {
   "name": "eventedarray",
-  "description":  "EventedArray",
+  "description": "EventedArray",
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,15 @@
     "mocha": "~1.7.4"
   },
   "author": "Anders D. Johnson < AndersDJohnson atsign gmail dot com >",
-  "repository":   {
+  "repository": {
     "type": "git",
     "url": "git://github.com/AndersDJohnson/EventedArray.git"
   },
-  "licenses":     [{
-    "type":       "MIT",
-	"url":        "https://github.com/AndersDJohnson/EventedArray/blob/master/LICENSE.txt"
-  }]
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/AndersDJohnson/EventedArray/blob/master/LICENSE.txt"
+    }
+  ],
+  "license": "MIT"
 }
